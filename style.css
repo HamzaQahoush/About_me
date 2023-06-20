@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.content {
+  flex-grow: 1;
+}
+
+h1 {
+  text-align: left; /* to align the text to left */
+  padding: 20px 0; /* to remove padding from sides, keep it on top and bottom */
+  background-color: transparent; /* to remove the background color */
+  color: #333; /* assuming you want the color to be black, adjust as needed */
+  margin: 0 13.5%; /* to align with the project content, adjust as per your layout */
+}
+
+.project {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.project h2 {
+  margin-top: 0;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin: 0 0 10px;
+}
+
+.project h2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.project h2 a:hover {
+  color: #007bff;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+.about-me {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+  margin-top: 0;
+}
+
+.about-me p {
+  margin: 10px 0;
+}
+
+.about-me .skills i {
+  font-size: 2em;
+  margin: 10px;
+  color: #007bff;
+}
+.about-me .skills img {
+  height: 2em; /* match the size to your Font Awesome icons */
+  width: auto; /* maintain the aspect ratio */
+  vertical-align: text-bottom; /* align with the middle of the text line */
+  margin-right: 7px;
+}
